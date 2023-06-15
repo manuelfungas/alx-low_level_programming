@@ -1,0 +1,2 @@
+#!/bin/bash
+CFILE="file_name.c" c; cpp -E "$CFILE" -o c
