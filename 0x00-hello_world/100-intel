@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE="0-main.c"; gcc -S -masm=intel "$CFILE" -o "${CFILE%.*}.s"
+CFILE="100-main.c"; gcc -S -masm=intel "$CFILE" -o "${CFILE%.c}.s"
