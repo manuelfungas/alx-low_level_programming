@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints the alphabet in lower-case
+ * print_alphabet_x10 - prints the alphabet in lower-case ten times
  * @alfa - is the control variable
+ * @i - counter
  *
  * Return: Void
  */
