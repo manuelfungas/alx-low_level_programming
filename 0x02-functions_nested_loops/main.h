@@ -42,3 +42,10 @@ int _isalpha(int c);
 int print_sign(int n);
 
 #endif /* PRINT_SIGN_H */
+
+#ifndef _ABS_H
+#define _ABS_H
+
+int _abs(int);
+
+#endif /* _ABS_H */
