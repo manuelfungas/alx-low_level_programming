@@ -20,3 +20,10 @@ void print_alphabet(void);
 void print_alphabet_x10(void);
 
 #endif /* PRINT_ALPHABET_X10_H */
+
+#ifndef _ISLOWER_H
+#define _ISLOWER_H
+
+int _islower(int c);
+
+#endif /* _ISLOWER_H */
