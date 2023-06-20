@@ -35,3 +35,10 @@ int _islower(int c);
 int _isalpha(int c);
 
 #endif /* _ISALPHA_H */
+
+#ifndef PRINT_SIGN_H
+#define PRINT_SIGN_H
+
+int print_sign(int n);
+
+#endif /* PRINT_SIGN_H */
