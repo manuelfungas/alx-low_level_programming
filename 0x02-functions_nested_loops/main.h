@@ -49,3 +49,11 @@ int print_sign(int n);
 int _abs(int);
 
 #endif /* _ABS_H */
+
+
+#ifndef PRINT_LAST_DIGIT_H
+#define PRINT_LAST_DIGIT_H
+
+int print_last_digit(int);
+
+#endif /* PRINT_LAST_DIGIT_H */
