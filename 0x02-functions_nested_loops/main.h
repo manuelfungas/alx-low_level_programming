@@ -3,11 +3,12 @@
 
 int _putchar(char c);
 
-#endif /* _putchar */
+#endif /* _PUTCHAR_H */
 
-#ifndef _PUTCHAR_H
-#define _PUTCHAR_H
+
+#ifndef PRINT_ALPHABET_H
+#define PRINT_ALPHABET_H
 
 void print_alphabet(void);
 
-#endif /* print_alphabet */
+#endif /* PRINT_ALPHABET_H */

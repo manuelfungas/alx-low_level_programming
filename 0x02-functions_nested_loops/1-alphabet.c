@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_alphabet - prints the alphabet in lower-case
  * @alfa - is the control variable
