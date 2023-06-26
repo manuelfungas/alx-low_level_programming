@@ -21,3 +21,10 @@ void swap_int(int *a, int *b);
 
 #endif /* SWAP_INT_H */
 
+
+#ifndef STRLEN_H
+#define STRLEN_H
+
+int _strlen(char *s);
+
+#endif /* STRLEN_H */
