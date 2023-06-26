@@ -36,3 +36,11 @@ int _strlen(char *s);
 void _puts(char *str);
 
 #endif /* PUTS_H */
+
+
+#ifndef PRINT_REV_H
+#define PRINT_REV_H
+
+void print_rev(char *s);
+
+#endif /* PRINT_REV_H */
