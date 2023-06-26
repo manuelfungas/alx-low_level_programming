@@ -18,5 +18,5 @@ void _puts(char *str)
 		n = n + 1;
 	}
 
-	return (0);
+	write(1, "\n", 1);
 }
