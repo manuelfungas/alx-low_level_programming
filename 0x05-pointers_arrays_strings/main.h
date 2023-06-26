@@ -53,3 +53,12 @@ void rev_string(char *s);
 
 #endif /* REV_STRING_H */
 
+
+
+#ifndef PUTS2_H
+#define PUTS2_H
+
+void puts2(char *str);
+
+#endif /* PUTS2_H */
+
