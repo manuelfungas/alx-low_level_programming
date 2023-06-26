@@ -32,7 +32,7 @@ void puts_half(char *str)
 
 	while (j < n)
 	{
-		_putchar(str[n];
+		_putchar(str[n]);
 		j = j + 1;
 	}
 
