@@ -14,10 +14,9 @@ int print_rev(char *s)
 
 	len = 0;
 
-	while (*s != '\0')
+	while (*s[len] != '\0')
 	{
 		len = len + 1;
-		s = s + 1;
 	}
 
 	i = len - 1;
