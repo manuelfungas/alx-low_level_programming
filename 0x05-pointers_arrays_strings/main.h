@@ -62,3 +62,11 @@ void puts2(char *str);
 
 #endif /* PUTS2_H */
 
+
+#ifndef PUTS_HALF_H
+#define PUTS_HALF_H
+
+void puts_half(char *str);
+
+#endif /* PUTS_HALF_H */
+
