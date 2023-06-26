@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
  * puts_half - implementation of puts
@@ -32,9 +32,9 @@ void puts_half(char *str)
 
 	while (j < n)
 	{
-		write(1, &str[n], 1);
+		_putchar(str[n];
 		j = j + 1;
 	}
 
-	write(1, "\n", 1);
+	_putchar('\n');
 }
