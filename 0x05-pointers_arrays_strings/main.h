@@ -44,3 +44,12 @@ void _puts(char *str);
 void print_rev(char *s);
 
 #endif /* PRINT_REV_H */
+
+
+#ifndef REV_STRING_H
+#define REV_STRING_H
+
+void rev_string(char *s);
+
+#endif /* REV_STRING_H */
+
