@@ -21,3 +21,10 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 
 #endif /* MEMCPY_H */
 
+
+#ifndef STRCHR_H
+#define STRCHR_H
+
+char *_strchr(char *s, char c);
+
+#endif /* STRCHR_H */
