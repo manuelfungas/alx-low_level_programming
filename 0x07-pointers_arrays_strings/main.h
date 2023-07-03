@@ -28,3 +28,20 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 
 #endif /* STRCHR_H */
+
+
+#ifndef STRSPN_H
+#define STRSPN_H
+
+unsigned int _strspn(char *s, char *accept);
+
+#endif /* STRSPN_H */
+
+
+#ifndef STRSPN_H
+#define STRSPN_H
+
+unsigned int _strspn(char *s, char *accept);
+
+#endif /* STRSPN_H */
+
