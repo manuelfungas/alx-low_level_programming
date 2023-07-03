@@ -54,3 +54,12 @@ char *_strpbrk(char *s, char *accept);
 
 #endif /* STRPBRK_H */
 
+
+
+#ifndef STRSTR_H
+#define STRSTR_H
+
+char *_strstr(char *haystack, char *needle);
+
+#endif /* STRSTR_H */
+
