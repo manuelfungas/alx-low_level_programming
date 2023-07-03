@@ -63,3 +63,12 @@ char *_strstr(char *haystack, char *needle);
 
 #endif /* STRSTR_H */
 
+
+
+#ifndef CHESSBOARD_H
+#define CHESSBOARD_H
+
+void print_chessboard(char (*a)[8]);
+
+#endif /* CHESSBOARD_H */
+
