@@ -45,3 +45,12 @@ unsigned int _strspn(char *s, char *accept);
 
 #endif /* STRSPN_H */
 
+
+
+#ifndef STRPBRK_H
+#define STRPBRK_H
+
+char *_strpbrk(char *s, char *accept);
+
+#endif /* STRPBRK_H */
+
