@@ -9,7 +9,9 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, count = 0;
+	long unsigned int i;
+	int amount, count = 0;
+	int coins[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
 	{
@@ -17,28 +19,18 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	for (i = atoi(argv[1]); i > 0; i--)
+	amount = atoi(argv[1]);
+	if (amount <= 0)
 	{
-		count++;
-		if ((i - 25) >= 0)
+		printf("0\n");
+	}
+
+	for (i = 0; i < sizeof(coins) / sizeof(coins[0]); i++)
+	{
+		if (amount >= coins[i])
 		{
-			i = i - 25;
-			continue;
-		}
-		if ((i - 10) >= 0)
-		{
-			i = i - 10;
-			continue;
-		}
-		if ((i - 5) >= 0)
-		{
-			i = i - 5;
-			continue;
-		}
-		if ((i - 2) >= 0)
-		{
-			i = i - 2;
-			continue;
+			count += amount / coins[i];
+			amount %= coins[i];
 		}
 	}
 
