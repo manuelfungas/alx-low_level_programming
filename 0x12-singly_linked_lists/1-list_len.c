@@ -10,7 +10,7 @@
 
 size_t list_len(const list_t *h)
 {
-	size_t node_count = 1;
+	size_t count = 1;
 
 	if (h == NULL)
 	{
@@ -20,7 +20,7 @@ size_t list_len(const list_t *h)
 	while (h->next != NULL)
 	{
 		h = h->next;
-		node_count++;
+		count++;
 	}
 
 	return (count);
