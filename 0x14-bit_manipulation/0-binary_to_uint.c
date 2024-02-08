@@ -27,7 +27,7 @@ int _strlen(const char *s)
 
 unsigned int binary_to_uint(const char *b)
 {
-	int len;
+	int len, i;
 	unsigned int total, base;
 
 	len = _strlen(b);
@@ -38,8 +38,6 @@ unsigned int binary_to_uint(const char *b)
 	{
 		return (0);
 	}
-
-	int i;
 
 	for (i = (len - 1); i >= 0; i--)
 	{
